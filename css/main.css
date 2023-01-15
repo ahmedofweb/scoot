@@ -45,7 +45,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -78,7 +78,7 @@ body {
   align-items: center;
   margin-right: auto;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .sitenav {
     display: none;
   }
@@ -121,7 +121,7 @@ body {
 .header__container .burger {
   display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .header {
     text-align: center;
     align-items: center;
@@ -173,7 +173,7 @@ body {
 .footer__network-item:not(:last-child) {
   margin-right: 2.4rem;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .footer__container {
     display: block;
     text-align: center;
@@ -219,7 +219,7 @@ body {
   color: #FCB72B;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .header-btn {
     display: none;
   }
@@ -248,7 +248,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .hero::after {
     display: none;
   }
@@ -278,7 +278,7 @@ body {
   left: -102px;
   top: 45px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .hero__container p::before {
     display: none;
   }
@@ -302,7 +302,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .hero__container p::after {
     left: -35rem;
     top: 15rem;
@@ -323,7 +323,7 @@ body {
     margin-bottom: 4.6rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .hero__container h2 {
     font-size: 4rem;
     font-weight: 700;
@@ -413,7 +413,7 @@ body {
     padding: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .selection__list::after {
     display: none;
   }
@@ -541,7 +541,7 @@ body {
     right: -35rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .comfort__item img {
     width: 31.1rem;
     height: 31.1rem;
@@ -614,7 +614,7 @@ body {
     margin-right: auto;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .sign__container {
     padding: 0;
   }
@@ -660,7 +660,7 @@ body {
   line-height: 5.6rem;
   color: #FFF;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .about-hero__container h1 {
     text-align: center;
     font-size: 4rem;
@@ -773,7 +773,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .mobility__item img {
     width: 32.1rem;
     height: 31.1rem;
@@ -949,7 +949,7 @@ body {
   top: 35px;
   z-index: 1;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .faqs__info h2 {
     font-size: 2.4rem;
     font-weight: 700;
@@ -994,7 +994,7 @@ body {
   line-height: 5.6rem;
   color: #FFF;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .careers-hero {
     text-align: center;
   }
@@ -1060,7 +1060,7 @@ body {
     padding-left: 5rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .mission__container img {
     width: 31.1rem;
     height: 31.1rem;
@@ -1189,7 +1189,7 @@ body {
   color: #495567;
   margin-bottom: 0.8rem;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .directions__item {
     display: block;
     text-align: center;
@@ -1224,7 +1224,7 @@ body {
   line-height: 5.6rem;
   color: #FFF;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .locations-hero {
     margin-bottom: 8rem;
   }
@@ -1248,7 +1248,7 @@ body {
 .maps__mobile-list {
   display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .maps {
     margin-bottom: 8rem;
   }
@@ -1323,7 +1323,7 @@ body {
     margin-bottom: 5.4rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .yourcity__info h2 {
     font-size: 3.2rem;
     font-weight: 700;
