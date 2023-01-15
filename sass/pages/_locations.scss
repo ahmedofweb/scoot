@@ -1,0 +1,121 @@
+                                    //LOCATIONS style
+// LOCATIONS section
+.locations-hero{
+    margin-bottom: 19rem;
+    margin-top: 9.7rem;
+    background: linear-gradient(rgba(47, 59, 89, .75),rgba(47, 59, 89, .75)),url(../images/png/careers-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after{
+        content: url('../images/svg/hero-after.svg');
+        position: absolute;
+        right: 0;
+        top: 72px;
+    }
+    &__container{
+        padding-top: 7.2rem;
+        padding-bottom: 7.2rem;
+        & h1{
+            @include font(5.6rem, 5.6rem, 700, $title-color, 'Space Mono')
+        }
+    }
+    @include responsive(mobile){
+        margin-bottom: 8rem;
+        &__container{
+            h1{
+                text-align: center;
+            }
+        }
+        &::after{
+            display: none;
+        }
+    }
+}          
+
+// MAPS section
+.maps{
+    margin-bottom: 12rem;
+    &__container{
+        background-image: url(../images/svg/mapsBG.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 54rem;
+    }
+    &__mobile-list{
+        display: none;
+    }
+    @include responsive(mobile){
+        margin-bottom: 8rem;
+        &__container{
+            display: none;
+        }
+        &__mobile{
+            background-image: url('../images/svg/locations-map-mobile.svg');
+            background-repeat: no-repeat;
+            background-position: center top;
+            &-list{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                padding-top: 20rem;
+            }
+            &-item{
+                background-color: $item-bg-color;
+                text-align: center;
+                padding-top: 2.2rem;
+                padding-bottom: 2.2rem;
+                @include font(2.4rem, 2.8rem, 700, $main-title-color, 'space mono');
+            }
+            &-item:not(:last-child){
+                margin-bottom: 1.6rem;
+            }
+        }
+    }
+}
+
+// YOURCITY section
+.yourcity{
+    margin-bottom: 12.2rem;
+    &__container{
+        display: flex;
+        align-items: center;
+        @include responsive(tablet){
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    &__info{
+        display: flex;
+        align-items: center;
+        margin-right: 10rem;
+        & h2{
+            width: 100%;
+            // max-width: 35rem;
+            @include font(4.8rem, 4.8rem, 700, $main-title-color, 'Space Mono');
+        }
+        & p{
+        
+        }
+        @include responsive(tablet){
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+            h2{
+                padding-right: 5rem;
+                padding-left: 5rem;
+                margin-bottom: 4rem;
+            }
+            p{
+                margin-bottom: 5.4rem;
+            }
+        }
+    }
+    @include responsive(mobile){
+        &__info{
+            h2{
+                @include font(3.2rem, 3.2rem, 700, $main-title-color, 'space mono');
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.sitenav{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    @include responsive(mobile){
+        display: none;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+    &__item{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 3.6rem;
+        padding-bottom: 3.6rem;
+        & a{
+            color: #939CAA;
+        }
+    }
+    &__item:not(:last-child){
+        margin-right: 3.2rem;
+    }
+    &__item:hover{
+        & a{
+            color: $btn-bg-color;
+        }
+    }
+}

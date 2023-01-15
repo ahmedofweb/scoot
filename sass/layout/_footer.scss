@@ -1,0 +1,56 @@
+.footer{
+    background-color: #333A44;
+    &__container{
+        display: flex;
+        text-align: center;
+        padding-top: 3.6rem;
+        padding-bottom: 3.6rem;
+    }
+    &-logo{
+        margin-right: 5.9rem;
+    }
+    &__list{
+        display: flex;
+        margin-right: auto;
+    }
+    &__item{
+       @include font(1.5rem, 2.5rem, 700, $text-color, 'Space Mono');
+    }
+    &__item:not(:last-child){
+        margin-right: 3.2rem;
+    }
+    &__item:hover{
+        & a{
+            color: $btn-bg-color;
+        }
+    }
+    &__network-list{
+        display: flex;
+    }
+    &__network-item:not(:last-child){
+        margin-right: 2.4rem;
+    }
+    @include responsive(mobile){
+        &__container{
+            display: block;
+            text-align: center;
+            padding-top: 6.4rem;
+            padding-bottom: 8.5rem;
+        }
+        &-logo{
+            margin: 0;
+        }
+        &__list{
+            display: block;
+            margin-top: 4.1rem;
+            margin-bottom: 8.7rem;
+        }
+        &__item:not(:last-child){
+            margin: 0;
+            margin-bottom: 1.6rem;
+        }
+        &__network-list{
+            justify-content: center;
+        }
+    }
+}

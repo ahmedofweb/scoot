@@ -1,0 +1,22 @@
+@mixin font($size, $lineHeight, $weight: 400, $color: #939CAA, $family: 'Lexend Deca') {
+    font: {
+        size: $size;
+        weight: $weight;
+        family: $family;
+    }
+    line-height: $lineHeight;
+    color: $color;
+}
+
+// responsive
+@mixin responsive($device) {
+    @if $device == tablet {
+        @media screen and (max-width: 800px){
+            @content;
+        }
+    } @else if $device == mobile {
+        @media screen and (max-width: 400px) {
+            @content;
+        }
+    }
+}

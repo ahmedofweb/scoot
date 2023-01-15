@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    background-color: rgba(255, 255, 255, .85);
+    ;
+    width: 100%;
+    z-index: 10;
+    &__container{
+        display: flex;
+        align-items: center;
+        & img{
+            margin-right: 5.8rem;
+        }
+        .burger{
+            display: none;
+        }
+    }
+        @include responsive(mobile){
+            text-align: center;
+            align-items: center;
+            padding-top: 1.6rem;
+            padding-bottom: 1.6rem;
+            .burger{
+                display: flex;
+                padding-right: 4rem;
+            }
+            &-logo{
+                margin-right: auto;
+                margin-left: auto;
+            }
+            
+        }
+}
